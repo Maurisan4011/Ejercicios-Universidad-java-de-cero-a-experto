@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<firestorm-project version="4.0.1">
+  <name>MySqlDB</name>
+  <description />
+  <dbimport-config>
+    <jdbc-datasource />
+    <jdbc-catalog />
+    <jdbc-schema />
+    <sql-import-file />
+    <sql-vendor />
+    <import-tables>true</import-tables>
+    <import-views>true</import-views>
+    <import-procedures>true</import-procedures>
+    <prefer-objects>false</prefer-objects>
+    <sync-new>true</sync-new>
+    <sync-existing>true</sync-existing>
+    <sync-deleted>true</sync-deleted>
+    <map-large-integer-to-bigdecimal>false</map-large-integer-to-bigdecimal>
+    <verbose-logging>false</verbose-logging>
+  </dbimport-config>
+  <database>
+    <platform />
+    <catalog-name />
+    <schema-name />
+    <table-list />
+    <view-list />
+    <procedure-list />
+    <custom-sql-list />
+  </database>
+  <provider-options />
+</firestorm-project>
+

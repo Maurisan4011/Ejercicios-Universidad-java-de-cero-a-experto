@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Ejercicio Formulario</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilos.css">
+    </head>
+    <body>
+        <form name="form1" action="/recursoEnServidor" method="post">
+            <input type="hidden" name="oculto" value="valorOculto">
+
+            <table width="500" id="one-column-emphasis">
+                <caption>
+                    Fromulario Registro de Datos 
+                </caption>
+
+                <tr>
+                    <td class="oce-first">
+                        Usuarios:
+                    </td>
+                    <td>
+                        <input class="default" type="text" name="usuario" value="Escribir usuario" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="oce-first">
+                        Password:
+                    </td>
+                    <td>
+                        <input class="default" type="password" name="password" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="oce-first">
+                        Tecnolog&iacute;as de Inter&eacute;s
+                    </td>
+                    <td>
+                        Java  <input type="checkbox" name="Tecnologia" value="java" />
+                        &nbsp;&nbsp;&nbsp;
+                        .Net <input type="checkbox" name="tecnologia" value="net" />
+                        &nbsp;&nbsp;&nbsp;
+                        PHP <input type="checkbox" name="tecnologia" value="php" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="oce-first">
+                        G&eacute;nero:
+                    </td>
+
+                    <td>
+                        Hombre <input type="radio" name="genero" value="H" />
+                        &nbsp;&nbsp;&nbsp;
+                        Mujer <input type="radio" name="genero" value="M" />
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="oce-first">
+                        Ocupaci&oacute;n
+                    </td>
+
+                    <td>
+                        <select name="ocupacion" class="default">
+                            <option value="1">Profesor</option>
+                            <option value="2">Ingeniero</option>
+                            <option value="3">Jubilado</option>
+                            <option value="4" selected>Otro</option>
+                        </select>
+                    </td>
+                </tr>
+
+
+                <tr>
+                    <td class="oce-first">
+                        M&uacute;sica Favorita 
+                    </td>
+
+                    <td>
+                        <select name="musica" multiple class="default">
+                            <option value="rock">Rock</option>
+                            <option value="salsa">Salsa</option>
+                            <option value="pop">Pop</option>
+                            <option value="folklore">Folklore</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="oce-first">
+                        Comentarios
+                    </td>
+                    <td>
+                        <textarea name="comentarios" cols="30" rows="2" class="default">
+                            Escribir un texto
+                        </textarea>
+                    </td>
+                </tr>
+
+                
+                <tr style="text-align: center">
+                    <td >
+                        <input type="reset" value="Limpiar" class="default" />
+                    </td>
+                    <td>
+                        <input type="submit" value="Enviar" class="default"/>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+
+    </body>
+</html>

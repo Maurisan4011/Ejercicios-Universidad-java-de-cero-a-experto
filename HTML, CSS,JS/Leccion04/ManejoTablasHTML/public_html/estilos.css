@@ -1,0 +1,36 @@
+
+/* 
+    Created on : 05/02/2019, 10:43:29
+    Author     : Mauri
+*/
+body{
+    background: #f1f3fe;
+    font-family: "Comic Sans MS";
+}
+caption{
+    height: 30px;
+    font-weight: bold;
+    color: #004080
+}
+th{
+    text-align: center;
+   color: #4d4d4d;
+   background: #a8d3ff;
+    
+}
+td{
+    text-align: justify;
+    color: #5b5b5b;
+   /* background: #5b5b5b;*/
+   font-size: small;
+   vertical-align: middle;
+    
+}
+
+.row1{
+    background: #ffffff;
+}
+.row2{
+    background: #e5e5e5;
+    
+}
